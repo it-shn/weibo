@@ -167,10 +167,10 @@ $(function(){
                                                     <div>
                                                         ${res.article[i].content}
                                                     </div>
-                                                    <img src="${res.article[i].imgUrl}" alt="">
-                                                    <img src="${res.article[i].image5}" alt="">
-                                                    <img src="${res.article[i].image3}" alt="">
-                                                    <img src="${res.article[i].image6}" alt="">
+                                                    <img src="${res.article[i].image1}">
+                                                    <img src="${res.article[i].image5}">
+                                                    <img src="${res.article[i].image3}">
+                                                    <img src="${res.article[i].image6}">
                                                 </div>
                                                 <div class="share">
                                                     <div class="iconfont icon-fenxiang_2">
