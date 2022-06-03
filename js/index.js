@@ -115,7 +115,7 @@ $(function(){
         url:"https://www.fastmock.site/mock/e190dfd2c2243661705bbe24d1d0ed3f/api/article",
         type:"get",
         success:function(res){
-            console.log(res);
+            // console.log(res);
             // 数据的分割函数
             loadArtile()
             //监听滚动条事件
