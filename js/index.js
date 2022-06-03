@@ -115,7 +115,7 @@ $(function(){
         url:"https://www.fastmock.site/mock/e190dfd2c2243661705bbe24d1d0ed3f/api/article",
         type:"get",
         success:function(res){
-            // console.log(res);
+            console.log(res);
             // 数据的分割函数
             loadArtile()
             //监听滚动条事件
@@ -167,7 +167,7 @@ $(function(){
                                                     <div>
                                                         ${res.article[i].content}
                                                     </div>
-                                                    <img src="${res.article[i].image1}" alt="">
+                                                    <img src="${res.article[i].imgUrl}" alt="">
                                                     <img src="${res.article[i].image5}" alt="">
                                                     <img src="${res.article[i].image3}" alt="">
                                                     <img src="${res.article[i].image6}" alt="">
